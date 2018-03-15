@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HelpWise Chat</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Vollkorn">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="../socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/client-socketio.js"></script>
+  </head>
+  <body>
+    <div class="App center">
+      <div class="chatbg">
+          <div class="chatheader">
+            <h1 class="chatheadertext">Owl Chat</h1>
+          </div>
+          <div class="chatbody">
+            <ul id="messages">
+            </ul>
+          </div>
+          <div class="chatfooter">
+            <form class="flex" action="">
+              <input type="text" id="m" autocomplete="off" class="messageinput flex" max="35"></input>
+              <button type="submit" value="Submit" class="submitbutton">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    <!-- <ul id="messages"></ul>
+    <form action="index.html">
+      <input id="m" autocomplete="off" /><button>Send</button>
+    </form> -->
+  </body>
+</html>
