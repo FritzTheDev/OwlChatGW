@@ -38,12 +38,12 @@ li {
   margin-top: 10px;
   font-family: "Vollkorn";
   justify-content: center;
-  width: 320px;
+  width: 80vw;
 }
 .chatbg {
   background-color: black;
   height: 85vh;
-  width: 320px;
+  width: 80vw;
   border-radius: 10px;
   display: flex;
   border: 15px solid black;
@@ -53,7 +53,7 @@ li {
   background-color: #eccc1f;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 80px;
+  height: 10vh;
   display: flex;
 }
 .chatheadertext {
@@ -72,7 +72,7 @@ li {
 }
 .chatfooter {
   background-color: #eccc1f;
-  height: 60px;
+  height: 10vh;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
@@ -84,7 +84,7 @@ li {
 }
 .messageinput {
   border: 0;
-  width: 210px;
+  width: 60vw;
   padding: 10px;
   height: 15px;
   resize: none;
@@ -96,6 +96,6 @@ li {
   border-radius: 10px;
   margin-left: 10px;
   background-color: gray;
-  width: 70px;
+  width: 10vw;
   font-family: "Pacifico";
 }
