@@ -6,7 +6,7 @@ body {
   text-align: center;
   height: 100vh;
   width: 100vw;
-  background-color: #7a1600;
+  background-color: gray;
 }
 .App-header {
   background-color: #222;
@@ -51,7 +51,7 @@ li {
   flex-direction: column;
 }
 .chatheader {
-  background-color: #eccc1f;
+  background-color: blue;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 10vh;
@@ -61,18 +61,18 @@ li {
   font-family: Pacifico;
   font-weight: lighter;
   font-size: 3em;
-  color: black;
+  color: white;
   margin: auto;
 }
 .chats {
   background-color: white;
 }
 .chatbody {
-  background-color: gray;
+  background-color: white;
   height: 75vh;
 }
 .chatfooter {
-  background-color: #eccc1f;
+  background-color: blue;
   height: 10vh;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -96,7 +96,7 @@ li {
   background-color: white;
   border-radius: 10px;
   margin-left: 10px;
-  background-color: gray;
+  background-color: white;
   width: 10vw;
   font-family: "Pacifico";
 }
