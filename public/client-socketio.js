@@ -1,4 +1,3 @@
-prompt = prompt("Please input your first name", "Name");
 $(function () {
   var socket = io();
   $('form').submit(function(){
@@ -7,7 +6,7 @@ $(function () {
     return false;
   });
   socket.on('chat message', function(msg){
-    $('#messages').append($('<li>').text(prompt + ": " + msg));
+    $('#messages').append($('<li>').text(msg));
     window.scrollTo(0, document.body.scrollHeight);
   });
 });
